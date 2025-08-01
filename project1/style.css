@@ -1,0 +1,18 @@
+.navbar{
+    padding: 0.9375rem 0 ;
+    transition: all .2s linear;
+  background-color: var(--bg-light);
+}
+
+.mybtn{
+  background-color: var( --secondary-color);  
+}
+
+.navbar-brand{
+    width: 5rem;
+}
+.mybtn:hover{
+    background-color: transparent;
+    border-color: var( --secondary-color);
+    color: var( --secondary-color);
+}
