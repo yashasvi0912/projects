@@ -2,23 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 :root{
-    --primary-color:#4458dc;
-    --primary-color: #4458dc;
-    --secondary-color:#854fee;
-    --bg-white:#fff;
-    --bg-light:#faf8ff;
-    --bg-black: #000;
-    --bg-gray: #eee;
-    --gradient: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc,#854fee);
-    /* Text Color */
-    --primary-text:#4458dc;
-    --secondary-text:#854fee;
-    --text-white: #fff;
-    --text-black: #000;
-    --text-gray:#777;
-
-/* Font Family*/
---primary-font: "Rubik", sans-serif;
---secondary-font:"Roboto", sans-serif;
+    :root {
+            --primary-color: #6366f1;
+            --secondary-color: #8b5cf6;
+            --dark-color: #1e293b;
+            --light-color: #f8fafc;
+            --text-muted: #64748b;
+        }
+        /* Font Family*/
+        --primary-font: "Rubik", sans-serif;
+        --secondary-font:"Roboto", sans-serif;
 
 }

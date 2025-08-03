@@ -1,18 +1,113 @@
-.navbar{
-    padding: 0.9375rem 0 ;
-    transition: all .2s linear;
-  background-color: var(--bg-light);
-}
 
-.mybtn{
-  background-color: var( --secondary-color);  
-}
+        /* Navigation */
+        .navbar {
+            background: rgba(11, 3, 3, 0.95);
+            color: white;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        .nav-link {
+            font-weight: 500;
+            color: var(--dark-color) !important;
+            margin: 0 0.5rem;
+            transition: color 0.3s ease;
+            position: relative;
+        }
 
-.navbar-brand{
-    width: 5rem;
-}
-.mybtn:hover{
-    background-color: transparent;
-    border-color: var( --secondary-color);
-    color: var( --secondary-color);
-}
+        /* home section */
+
+       .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            background: linear-gradient(135deg, #495ebe 0%, #764ba2 100%) !;
+            position: relative;
+            overflow: hidden;
+            background: url(./media/1.jpg);
+            background-size: cover;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            color: white;
+            margin-bottom: 1rem;
+            transition: all 2s ease-in-out;
+            text-decoration: underline solid rgb(26, 116, 146);
+        }
+
+        .hero .subheading {
+            font-size: 1.5rem;
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 2rem;
+            transition: all  0.8s ease ;
+            text-decoration: underline ;
+        }
+
+        .btn-hero {
+            padding: 12px 30px;
+            font-weight: 600;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            margin: 0 0.5rem;
+
+        }
+
+        .btn-primary-custom {
+            background: transparent;
+            color: white;
+            border: 2px solid rgb(33, 156, 197);
+        } 
+
+        .btn-primary-custom:hover {
+            background: white;
+            color: var(--primary-color);
+            transform: translateY(-3px);
+        }
+        /* about section */
+        .about-img {
+            border-radius: 30px;
+            box-shadow: 0 20px 40px rgba(17, 17, 17, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .about-img:hover {
+            transform: scale(1.05);
+        }
+        .skill-item {
+            margin-bottom: 1.5rem;
+        }
+
+        .skill-name {
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .progress {
+            height: 10px;
+            border-radius: 10px;
+            background: #b5c9e4;
+            overflow: visible;
+        }
+
+        .progress-bar {
+            background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+            border-radius: 10px;
+            overflow: visible;
+        }
+
+
+
+        
+
+
+
+        
+       
+        
