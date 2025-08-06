@@ -239,6 +239,30 @@
   }
 }
 
+/* only style section*/
+
+.section-title {
+    font-size: 3rem;
+    font-weight: 800;
+    background: linear-gradient(90deg, white, #888);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 1rem;
+    position: relative;
+    z-index: 2;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+}
+
+.lead.text-info {
+    font-size: 1.3rem;
+    color: #dddddd;
+    margin-top: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    position: relative;
+    z-index: 2;
+}
 
  /* About Section */
 .section {
@@ -266,6 +290,44 @@
     margin-bottom: 0.5rem;
     color: white;
 }
+/* portfolio section */
+.portfolio-item {
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    background: #111;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-10px);
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover img {
+    transform: scale(1.1);
+}
+
+.portfolio-overlay {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.portfolio-item:hover .portfolio-overlay {
+    opacity: 1;
+}
+
 
 
 /* Services Section */
@@ -274,30 +336,6 @@
     background-color: #111;
     position: relative;
     overflow: hidden;
-}
-
-/* Title Styling */
-.section-title {
-    font-size: 3rem;
-    font-weight: 800;
-    background: linear-gradient(90deg, white, #888);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    margin-bottom: 1rem;
-    position: relative;
-    z-index: 2;
-    text-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
-}
-
-.lead.text-info {
-    font-size: 1.3rem;
-    color: #dddddd;
-    margin-top: 1.5rem;
-    font-weight: 300;
-    letter-spacing: 1px;
-    position: relative;
-    z-index: 2;
 }
 
 /* Service Cards */
@@ -391,4 +429,5 @@
     color: #fff;
     padding: 2rem;
     border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(255, 255, 255, 0.1);
 }
