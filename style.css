@@ -427,7 +427,31 @@
 .contact-info {
     background: #000;
     color: #fff;
-    padding: 2rem;
+    padding: 4rem;
     border-radius: 15px;
-    box-shadow: 0 5px 20px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 5px 20px rgba(67, 44, 44, 0.1);
+}
+/* Footer */
+footer {
+    background: #111;
+    color: #fff;
+    padding: 40px 0 20px;
+}
+
+.social-links a {
+    width: 40px;
+    height: 40px;
+    background: #333;
+    color: #fff;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 0.5rem;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    background: #fff;
+    color: #000;
 }
